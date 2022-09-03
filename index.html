@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!------oswald link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?famliy=Oswald&display=swap" rel="stylesheet">
+
+  <!--poppins link-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?famliy=Poppins&display=swap" rel="stylesheet">
+
+  <!---bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <!----font awesome cdn-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!---style-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .topnav .icon {
+      display: none;
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav a:not(:first-child) {
+        display: none;
+      }
+
+      .topnav a.icon {
+        float: right;
+        display: block;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      .topnav.responsive {
+        position: relative;
+      }
+
+      .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+
+      .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+      }
+    }
+  </style>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <ul>
+
+    <li><a href="#">
+      <i class='fas fa-home'></i>    
+      <li><a href="#about">
+        <i class="fa-regular fa-address-card"></i> </a></li>
+    </a></li>
+    <li class="active"><a href="#mh-skills">
+      <i class='fas fa-brain'></i>
+      <li><a href="#mh-portfolio">
+        <i class='fas fa-lightbulb'></i>
+      </a></li>
+    <li><a href="#section-wrapper">
+      <i class='fas fa-phone'></i>
+    </a></li>
+    <div id="marker"></div>
+  </ul>
+
+
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!-----home page-->
+
+  <br><br><br><br><br>
+
+  <section class="home container text-white">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="hero-text">
+          <span class="title4">Hello I'm</span><br>
+          <span class="name">Denaro Edrian</span><br>
+          <span class="designation">software Engineer</span><br>
+          <span class="email"><i class="fa fa-envelope"></i>       denaro2012@gmail.com</span><br>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="hero-img">
+          <div class="img-border">
+            <img src="images/w-removebg-preview-removebg-preview.png" class="img-fluid" width="300px" length="30px"
+              alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <br>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/blub.jpg" class="glow" alt="">
+        </div>
+        <div class="col-md-5 text-white gap">
+          <br><br><br><br>
+          <h2>About me</h2>
+          <br>
+          <p class="p2">Hello everyone, <br>
+            I am called Denaro Edrian who lives in Marawila, Sri Lanka. I made this website when I was 10 years old. I didn't have any knowledge of HTML and CSS before joining the MEULABS program after that, I created this personal portfolio with the knowledge of the MEULABS program. My parents love the work that I am doing, so they help me to achieve these goals.</p>
+          <br><div class="tag">
+            <ul>
+              <li><span>HTML</span></li>
+              <li><span>CSS</span></li>
+              <li><span>PHP</span></li>
+              <li><span>Javascript</span></li>
+              <li><span>React </span></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <br><br><br>
+  <section id="service" class="mh-service text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h3 style="text-align: center;">WHAT I DO</h3>
+        </div>
+        <div class="col-sm-4">
+          <div class="mh-service-item">
+            <i class="fa fa-bullseye purple-color"></i>
+            <h3>Graphic Design</h3>
+            <p>I loved editing images and videos and I'm in the school vedio editing team and my instructors say that I am
+              great at this.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="mh-service-item">
+            <i class="fa fa-code iron-color"></i>
+            <h3>Web Development</h3>
+            <p>Upto today i have done many websities in html, wix, pixart. This is one of my best websties yet.</p>
+          </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="mh-service-item">
+            <i class="fa fa-object-ungroup sky-color"></i>
+            <h3>Mobile App Development</h3>
+            <p>I made apps for my mum and for my dad's phone and I'm getting a bit good at the techology and this is why
+              I love this.</p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!----skilld and chart----------->
+
+  <br><br><br><br><br><br>
+  <section class="mh-skills" id="mh-skills">
+    <div class="skillss">
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>90<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">HTML</div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>80<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">CSS</div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>70<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">Javascript</div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>85<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">Python</div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>50<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">C++</div>
+      </div>
+      <div class="card">
+        <div class="box">
+          <div>
+            <div class="percent">
+              <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+              </svg>
+              <div class="number">
+                <h2>75<span>%</span></h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text">MagicBit</div>
+      </div>
+    </div>
+  </section>
+
+  <!--PRojects-->
+  <section class="mh-portfolio" id="mh-portfolio">
+    <div class="body">
+    <div class="container">
+      <div class="row">
+        <div class="section-title col-sm-12">
+          <h3 style="text-align: center;" style="color: white;">Recent Portfolio</h3>
+        </div>
+        <br><br>
+        <div class="part col-sm-12">
+          <div class="portfolio-nav col-sm-12" id="filter-button">
+            <ul>
+              <li data-filter="*" class="current">
+                <span>Circuits</span>
+              </li>
+              <li data-filter=".user-interface">
+                <span>Web Designs</span>
+              </li>
+              <li data-filter=".branding">
+                <span>Inventions</span>
+              </li>
+              <li data-filter=".mockup">
+                <span> </span>
+              </li>
+            </ul>
+          </div>
+          </div>
+          <div class="container">
+            <div class="card">
+                <div class="content">
+                    <div class="first">
+                        <div class="imgBx">
+                            <img src="gallery/1.JPG">
+                        </div>
+                        <div class="contentBx">
+                            <h3>Temperature Sensor</h3>
+                            <p>TinkerCad</p>
+                        </div>
+                    </div>
+    
+                    <div class="second">
+                        <h2>Temperature Sensor</h2>
+                        <p>
+                           A sensor that will help you find the Temperature of your area.
+    
+                          
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <div class="first">
+                        <div class="imgBx">
+                            <img src=" gallery/2.JPG">
+                        </div>
+                        <div class="contentBx">
+                            <h3> Number Lock </h3>
+                            <p>TinkerCad</p>
+                        </div>
+                    </div>
+    
+                    <div class="second">
+                        <h2>Number Lock</h2>
+                        <p>
+                            Want to keep your house safe then try this number lock that would lock your house door and keep it safe.
+    
+                      
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                  <div class="first">
+                      <div class="imgBx">
+                          <img src=" gallery/3.JPG">
+                      </div>
+                      <div class="contentBx">
+                          <h3> Drone</h3>
+                          <p> TinkerCad </p>
+                      </div>
+                  </div>
+  
+                  <div class="second">
+                      <h2> Drone</h2>
+                      <p>
+A 3D drone that would keep you excited    .
+                      </p>
+                  </div>
+              </div>
+
+                </div>
+
+  <div class="card">
+    <div class="content">
+        <div class="first">
+            <div class="imgBx">
+                <img src=" gallery/5.JPG">
+            </div>
+            <div class="contentBx">
+                <h3> Space Car</h3>
+                <p> TinkerCad </p>
+            </div>
+        </div>
+
+        <div class="second">
+            <h2> Space Car</h2>
+            <p>
+Wanted to drive a car but not on earth then this is the solution. This car can go all around Mars in a zoom!
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+  <div class="content">
+      <div class="first">
+          <div class="imgBx">
+              <img src=" gallery/6.png">
+          </div>
+          <div class="contentBx">
+              <h3>Mars Rover</h3>
+              <p> Invention</p>
+          </div>
+      </div>
+
+      <div class="second">
+          <h2> Mars Rover</h2>
+          <p>
+            This is the real life rover that in the future will go on Mars but in a bigger version.
+            </p>
+      </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+      <div class="first">
+          <div class="imgBx">
+              <img src=" gallery/7.png" width="400px">
+          </div>
+          <div class="contentBx">
+              <h3> Covid-Dashboard</h3>
+              <p> Python & Streamlit</p>
+          </div>
+      </div>
+
+      <div class="second">
+          <h2> Covid-Dashboard</h2>
+          <p>
+This dashboard would show you all the information about cases and deaths in some countries.
+          </p>
+      </div>
+  </div>
+</div>
+
+
+            </div>
+        </div> 
+      </div>
+      </div>
+            </div>
+            
+  </section>
+
+    
+  <div class="section"  id="contact">
+    <div class="color"></div>
+  
+    <div class="box2">
+        <div class="square" style="--i:0"></div>
+        <div class="square" style="--i:1"></div>
+        <div class="square" style="--i:2"></div>
+        <div class="square" style="--i:3"></div>
+        <div class="square" style="--i:4"></div>
+        <div class="csscontainer">
+            <div class="form">
+              <form class="gform pure-form pure-form-stacked" method="POST" data-email="denaro2012@gmail.com" action="https://script.google.com/macros/s/AKfycbwa5wEllVG1OPP7Ak_e9CmPNBT7MwaTd6Vl6iYMyl1YBBe-wDATyhESl5ldhTrgbI_ibw/exec">
+             <div class="inputBx">
+                        <input type="text" name="name" placeholder="Full Name">
+                    </div>
+                    <div class="inputBx">
+                        <input type="phone" name="phone" placeholder="phone">
+                    </div>
+                    <div class="inputBx">
+                      <input type="email" name="email" placeholder="Email">
+                  </div>
+                    <div class="inputBx">
+                        <textarea name="message"name="message" id="" placeholder="Type Mesage Here..."></textarea>
+                    </div>
+                    <div class="inputBx">
+       <button type="submit" value="subit " onclick="SubForm()">Submit</button>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity=”sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=” crossorigin=”anonymous”>
+</script>
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
+
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script type="text/javascript">var submitted=false;</script>
+    
+ 
+  <script scr="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script>
+    let options = {
+      startAngle: -1.55,
+      size: 150,
+      value: 0.95,
+      fill: { gradient: ['#a445b2', '#fa4299'] }
+    }
+    $(".circle .bar").circleProgress(options).on('circle-animation-progress',
+      function (event, progress, stepValue) {
+        $(this).parent().find("span").text(String(stepValue.toFixed(2).substr(2)) + "%");
+      });
+    $(".js .bar").circleProgress({
+      value: 0.80
+    });
+    $(".react .bar").circleProgress({
+      value: 0.75
+    });
+  </script>
+  <script>/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+
+    }
+
+    $(window).scroll(function () {
+      var sc = $(window).scrollTop();
+      if (sc > 150) {
+        $(".header").addClass("sticky");
+      } else {
+        $(".header").removeClass("sticky");
+      }
+    });
+  </script>
+
+  <script>
+    let marker = document.querySelector('#marker');
+    let list = document.querySelectorAll('ul li');
+
+    function moveIndicator(e) {
+      marker.style.left = e.offsetLeft + 'px';
+      marker.style.width = e.offsetWidth + 'px';
+    }
+
+    list.forEach(link => {
+      link.addEventListener('mousemove', (e) => {
+        moveIndicator(e.target);
+      })
+    })
+
+    // add active class in hovered list item
+
+    function activeLink() {
+      list.forEach((item) => item.classList.remove('active'));
+      this.classList.add('active')
+    }
+
+    list.forEach((item) => item.addEventListener('mouseover', activeLink));
+  </script>
+</body>
+
+</html>
